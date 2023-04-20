@@ -387,10 +387,13 @@ header img{
 .market h3{
     text-align: center;
     margin-bottom: 2%;
+    font-size: 30px;
+
 }
 .market p{
     text-align: center;
     margin-bottom: 2%;
+    color: #979797;
 }
 .group{
     display: flex;
@@ -406,9 +409,11 @@ header img{
 .organic h2{
     text-align: center;
     margin-bottom: 3%;
+    color: #616161;
 }
 .organic p{
     width: 300px;
+
 }
 .high{
     padding-top: 5%;
@@ -417,6 +422,7 @@ header img{
 .high h2{
     text-align: center;
     margin-bottom: 3%;
+    color: #616161;
 }
 .high p{
     width: 300px;
@@ -428,6 +434,7 @@ header img{
 .best h2{
     text-align: center;
     margin-bottom: 3%;
+    color: #616161;
 }
 .best p{
     width: 300px;
@@ -446,6 +453,7 @@ header img{
 }
 .latest h2{
     text-align: center;
+    font-size: 30px;
 }
 .website{
     display: flex;
@@ -517,6 +525,7 @@ header img{
     color: #000000;
     text-align: center;
     margin-bottom: 2%;
+    font-size: 30px;
 }
 .question h4{
     color: #979797;
@@ -552,6 +561,7 @@ header img{
 .news h3{
     text-align: center;
     margin-top: 3%;
+    font-size: 30px;
 }
 .news p{
     text-align: center;
