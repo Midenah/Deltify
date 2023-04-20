@@ -153,9 +153,12 @@ header img{
     margin-left: 20%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+.simp img{
+    margin-left: 10%;
+}
 .simp h1{
     color: #073289;
-    font-family:;
+     font-family: 'Inter', sans-serif;
     padding-top: 17%;
     text-align: center;
     font-size: 26px;
@@ -205,6 +208,9 @@ header img{
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+.popular img{
+    margin-left: 10%;
+}
 .popular p{
     color: #ffffff;
     text-align: center;
@@ -212,7 +218,6 @@ header img{
 }
 .popular h1{
     color: #ffa500;
-    font-family:;
     padding-top: 15%;
     text-align: center;
     font-size: 26px;
@@ -261,6 +266,9 @@ header img{
     margin-right: 12%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+.recommend img{
+    margin-left: 9%;
+}
 .recommend P{
     color: #ffa500;
     text-align: center;
@@ -268,7 +276,6 @@ header img{
 }
 .recommend h1{
     color: #073289;
-    font-family:;
     padding-top: 7%;
     text-align: center;
     font-size: 26px;
@@ -391,9 +398,6 @@ header img{
 .group img{
     padding-left: 28%;
     margin-bottom: 3%;
-}
-.high i{
-
 }
 .organic{
     padding-top: 3.7%;
