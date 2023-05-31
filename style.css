@@ -578,6 +578,7 @@ input{
     margin-left: 30%;
     margin-bottom:3%;
     margin-top: 3%;
+    outline: none;
     border-radius: 5px;
 }
 .news button{
@@ -590,9 +591,13 @@ input{
 }
 footer{
     background:url(images/Banner.png);
-    display: flex;
 }
-.lab{
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25%;
+}
+.txt{
     width: 400px;
 }
 .link{
@@ -603,15 +608,10 @@ span{
     color: #ffa500;
     margin-bottom: 10%;
 }
-.link h3{
-    color: #ffa500;
-    font-weight: normal;
-    font-size: 20px;
-    margin-bottom: 30%;
-}
 .link p{
-    margin-bottom: 35%;
+    margin-bottom: 15%;
     color: #ffffff;
+    white-space: pre-line;
     margin-top: 10%;
 }
 i{
@@ -634,4 +634,24 @@ i{
     text-align: center;
     padding-top: 4%;
     border: none;
+}
+table{
+    color: #ffffff;
+    margin-top: 4%;
+}
+
+th{
+    font-size: 20px;
+    color: #ffa500;
+    padding-left: 80px;
+    padding-right: 10px ;
+}
+td{
+    padding-left: 80px;
+}
+footer p{
+    margin-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: #ffffff;
 }
