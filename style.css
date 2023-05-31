@@ -403,7 +403,7 @@ header img{
     margin-bottom: 3%;
 }
 .organic{
-    padding-top: 3.7%;
+    padding-top: 5.5%;
     margin-right: 5%;
 }
 .organic h2{
@@ -611,7 +611,6 @@ span{
 .link p{
     margin-bottom: 15%;
     color: #ffffff;
-    white-space: pre-line;
     margin-top: 10%;
 }
 i{
@@ -645,6 +644,9 @@ th{
     color: #ffa500;
     padding-left: 80px;
     padding-right: 10px ;
+}
+th a{
+    text-decoration: underline;
 }
 td{
     padding-left: 80px;
