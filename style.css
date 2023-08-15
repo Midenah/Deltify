@@ -2,122 +2,102 @@
     margin: 0%;
     padding: 0%;
 }
-header{
+body{
+    overflow-x: hidden;
+
+}
+.container{
     background: url(images/Banner.png);
     color: white;
+    padding: 3rem 4rem;
+    padding-bottom: 0;
+    background-size: 100%;
 }
-span{
-    font-size: 28px;
-    font-weight: 600;
-    
-}
-.nav{
-    padding-top: 3%;
-    margin-left: 5%;
+
+nav{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4rem;
 }
-.main{
+nav span{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+nav ul{
     list-style: none;
     display: flex;
-    padding-right: 40%;
+    gap: 20px;
 }
-.main li{
-    margin-left: 15%;
-    font-size: 12px;
-}
-.nav p{
+nav p{
     color: #ffa500;
-    padding-right: 10%;
-    width: 5%;
     text-decoration: underline #ffa500;
-}
-.lets{
-    font-size: 38px;
-    font-weight: 500;
-    margin-left: 5%;
-    margin-top:5%
 }
 a{
     color: #ffa500;
 }
-.text{
-    font-size: 18px;
-    width: 550px;
-    margin-left: 5%;
-    margin-top: 2%;
-}
-.lorem{
-    margin-top: 2%;
+/* section */
+section{
     display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-bottom: 7%;
-    
 }
-.lorem ul{
+.section-text h2{
+    font-size: 30px;
+    margin-top: 1rem;
+}
+.section-text p{
+    width: 78%;
+    margin: 2rem 0;
+}
+.lorem-text{
+    margin: 3rem 1rem;
+    display: flex;
+    gap: 4rem;    
+}
+.lorem-text ul{
     list-style:url(images/tick.svg) ;
-    font-size: 18px;
 }
-.two{
-    margin-right: 50%;
-}
-.get{
+.section-text button{
     background: #ffa500;
     color: #ffffff;
-    margin-left: 5%;
-   line-height: 35px; 
-   width: 190px;
+    padding: 1rem 5rem;
    border-radius: 24px;
-   margin-bottom: 10%;
+   margin-top: 3rem;
 }
-header img{
-    float: right;
-    margin-right: 5%;
-    margin-top: 4%;
-}
-.container{
+/* main */
+.main{
     background:url(images/blur.svg);
-    padding-left: 5%;
-    padding-top: 4%;
-    padding-bottom: 9%;
+    display: flex;
+    align-items: center;
+    background-size: 100%;
+    padding: 1rem 0;
+    justify-content: space-between;
 }
-.divide{
-    float: right;
-    padding-right: 150px;
+.main-text{
+    width: 40%;
 }
-.expert{
-    margin-top: 3%;
+.main-text h5{
     color: #ffa500;
     font-size: 14px;
     font-weight: bold;
 }
-.shopify{
-    margin-top: 5%;
-    width: 410px;
-    padding-bottom: 20%;
+.main-text h1{
+    margin:1rem 0;
 }
-.epistel{
-    
-    width: 350px;
+.main-text p{
     font-size: 16px;
-    padding-right: 12%;
-    margin-top: -15%;
     line-height: 26px;
+    width: 80%;
 }
-.loremm{
-    margin-top: 5%;
+.main-lorem{
+    margin:1rem 2rem;
     display: flex;
-    margin-bottom: 10%;
-    justify-content: space-between;
-    padding-left: 6%;
-    
+    gap: 5rem;    
 }
-.loremm ul{
+.main-lorem ul{
     list-style:url(images/tick.svg);
     font-size: 18px;
 }
-.read{
+.main-text button{
     background: #ffa500;
     color: #ffffff;
     margin-left: 3%;
@@ -126,248 +106,242 @@ header img{
     border-radius: 4px;
     border: none;
 }
-.expert{
-    text-align: center;
-    margin-bottom: 3%;
-}
 .purchase{
-    padding-bottom: 5%;
+    margin: 3rem 0rem;
+    align-items: center;
+
+}
+.purchase h5{
+    text-align: center;
+    margin-bottom:2rem;
 }
 .purchase h2{
     text-align: center;
 }
 .subcribe{
-    margin-top: 5%;
+    margin-top: 3rem;
     display: flex;
-    justify-content: space-between;
-    margin-right: 10%;
-    margin-left: 10%;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
 }
-.simp{
-    height:500px;
-    width: 265px;
+.subcribe img{
+    width: 90%;
+}
+.first-subcription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #fcfaed;
-    border: 1px solid none;
+    border: none;
     border-radius:20px;
-    margin-top: 3%;
-    margin-left: 20%;
+    width: 20%;
+    padding: 0 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.simp img{
-    margin-left: 10%;
-}
-.simp h1{
+.first-subcription h1{
     color: #073289;
      font-family: 'Inter', sans-serif;
-    padding-top: 17%;
+    padding-top: 3rem;
     text-align: center;
     font-size: 26px;
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 }
-.simp h3{
+.first-subcription h3{
     color: black;
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
-    margin-top: 10%;
 }
-.simp h4{
+.first-subcription h4{
     color:#9d9d9d;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 3rem;
 }
-.simp ul{
-    margin-top: 10%;
-}
-.simp li{
+.first-subcription li{
     list-style: url(images/tick.svg);
-    margin-left: 10%;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     color: #9d9d9d;
-    margin-bottom:5%;
+    margin-bottom: 1rem;
+    align-items: center;
 }
-.simp button{
-    margin-left: 30%;
-    margin-top: 65%;
+.first-subcription button{
+    margin-top: 5.5rem;
+    margin-bottom: 1rem;
     border: 1px solid #ffa500;
-    line-height: 30px;
-    width: 120px;
+    padding: 0.5rem 1rem;
     border-radius: 20px;
+    width: 60%;
     color: #ffa500;
-    background: #fcfaed;
+    background: inherit;
 }
-
-.popular{
-    height:570px;
-    width: 265px;
+.second-subcription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
     background: #073289;
-    border: 1px solid none;
+    border:none;
     border-radius: 20px;
+    width: 20%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.popular img{
-    margin-left: 10%;
-}
-.popular p{
+
+.second-subcription p{
     color: #ffffff;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 1rem;
 }
-.popular h1{
+.second-subcription h1{
     color: #ffa500;
-    padding-top: 15%;
+    padding-top: 1rem;
     text-align: center;
     font-size: 26px;
-    margin-bottom: 5%;
+    margin-bottom: 1rem;
 }
-.popular h3{
+.second-subcription h3{
     color:#ffa500;
-    margin-bottom: 5%;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
-    margin-top: 10%;
+    margin-bottom: 1rem;
 }
-.popular h4{
+.second-subcription h4{
     color:#ffffff;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 2rem;
 }
-.popular li{
+.second-subcription li{
     list-style: url(images/tick.svg);
-    margin-left: 10%;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     color: #ffffff;
-    margin-bottom:5%;
+    margin-bottom:1rem;
 }
-.popular button{
-    margin-left: 30%;
-    margin-top: 20%;
+.second-subcription button{
+    margin-top: 1rem;
     background: #ffa500;
     border: 1px solid #ffa500;
-    line-height: 30px;
-    width: 120px;
+    padding: 0.5rem 2rem;
     border-radius: 20px;
-    color: #ffffff
+    color: #ffffff;
+    margin-bottom: 1rem;
 }
 
-.recommend{
-    height:500px;
-    width: 265px;
+.third-subcription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #fcfaed;
-    border: 1px solid none;
+    border: none;
     border-radius:20px;
-    margin-top: 3%;
-    margin-right: 12%;
+    width: 20%;
+    padding: 0 2rem;
+    align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.recommend img{
-    margin-left: 9%;
-}
-.recommend P{
+
+.third-subcription P{
     color: #ffa500;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 0.9rem;
 }
-.recommend h1{
+.third-subcription h1{
     color: #073289;
     padding-top: 7%;
     text-align: center;
     font-size: 26px;
     margin-bottom: 5%;
 }
-.recommend h3{
+.third-subcription h3{
     color: black;
-    margin-bottom: 5%;
+    margin-bottom:1rem;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 1rem;
 }
-.recommend h4{
+.third-subcription h4{
     color:#9d9d9d;
-    font-size: 12px;
-    text-align: center;
-    margin-bottom: 5%;;
-}
-.recommend ul{
-    margin-top: 10%;
-}
-.recommend li{
-    list-style: url(images/tick.svg);
-    margin-left: 10%;
     font-size: 14px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.third-subcription li{
+    list-style: url(images/tick.svg);
+    font-size: 12px;
     font-weight: 300;
     color: #9d9d9d;
-    margin-bottom:2%;
 }
-.recommend button{
-    margin-left: 30%;
-    margin-top:8%;
+.third-subcription button{
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
     border: 1px solid #ffa500;
-    line-height: 30px;
-    width: 120px;
+    padding: 0.5rem 2rem;
     border-radius: 20px;
     color: #ffa500;
     background: #fcfaed;
 }
 
-.announce{
-    padding-top: 6%;
-    padding-left: 8%;
+/* sales announcement */
+.sale-announcement{
+    padding: 2rem 3rem;
+    display: flex;
     background: url(images/blur.svg);
 }
-.announce img{
-    float: right;
+.sale-announcement img{
+    width: 50%;
 }
-.announce p{
+.sale-announcement p{
     color: #ffa500;
     margin-bottom:2%;
 }
-.announce h1{
+.sale-announcement h1{
     font-size: 20px;
     margin-bottom: 3%;
     font-size: 30px;
-    width: 370px;
+    width: 80%;
 }
-.announce h5{
+.sale-announcement h5{
     color: #9d9d9d;
-    width: 360px;
+    width: 80%;
     font-size: 16px;
     font-weight: normal;
 }
-.money{
+.price{
     display: flex;
-    margin-top: 3%;
+    margin-top: 1rem;
+    align-items: center;
+    gap: 30px;
 }
-.money h4{
-    color: #ffa500;
-    margin-right: 3%;
-    font-size: 38px;
-    font-weight: normal;
+.current-price{
+    font-size: 30px;
 }
-.money p{
-    color: #707070;
+.previous-price s{
     font-size: 18px;
-    margin-top: 2%;
+    color: #adabab;
 }
-.announce ul{
+.sales-text{
+    align-items: center;
+}
+.sales-text ul{
     list-style: url(images/deco.svg);
-    margin-top: 2%;
-    margin-left: 2%;
 }
-.announce li{
+.price img{
+    width: 10%;
+}
+.sale-announcement li{
     font-size: 18px;
     font-weight: normal;
     margin-bottom: 1%;
     padding-left: 1%;  
 }
-.announce button{
+.sale-announcement button{
     background: #ffa500;
     color: #ffffff;
    line-height: 35px; 
@@ -376,36 +350,31 @@ header img{
    margin-bottom:1%;
    border:none
 }
-.market{
-    margin-left: 8%;
-}
-.market h5{
-    color: #ffa500;
+.about-product{
     text-align: center;
+    margin: 4rem 0;
+}
+ .about-product h5{
+    color: #ffa500;
     margin-bottom: 2%;
 }
-.market h3{
-    text-align: center;
+.about-product h3{
     margin-bottom: 2%;
     font-size: 30px;
-
 }
-.market p{
-    text-align: center;
+.about-product p{
     margin-bottom: 2%;
     color: #979797;
 }
-.group{
+.product-quality{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: 3rem;
 }
-.group img{
-    padding-left: 28%;
-    margin-bottom: 3%;
-}
-.organic{
-    padding-top: 5.5%;
-    margin-right: 5%;
-}
+
 .organic h2{
     text-align: center;
     margin-bottom: 3%;
@@ -413,12 +382,8 @@ header img{
 }
 .organic p{
     width: 300px;
+}
 
-}
-.high{
-    padding-top: 5%;
-    margin-left: 12%;
-}
 .high h2{
     text-align: center;
     margin-bottom: 3%;
@@ -427,10 +392,7 @@ header img{
 .high p{
     width: 300px;
 }
-.best{
-    padding-top: 5%;
-    margin-left: 12%;
-}
+
 .best h2{
     text-align: center;
     margin-bottom: 3%;
@@ -439,150 +401,130 @@ header img{
 .best p{
     width: 300px;
 }
-.latest{
-    padding-top: 5%;
-    padding-left: 8%;
-    margin-top: 5%;
-    background: #fafbfd;
-    padding-bottom: 5%;
-}
-.latest h3{
+.portfolio{
     text-align: center;
-    margin-bottom: 2%;
+    padding:6rem 0;
+    margin-top: 4rem;
+    background: #fafbfd;
+}
+.portfolio h3{
+    margin-bottom: 1.5rem;
     color: #ffa500;
 }
-.latest h2{
-    text-align: center;
+.portfolio h2{
     font-size: 30px;
 }
-.website{
-    display: flex;
-    margin-bottom: 3%;
-    margin-top: 2%;
+
+.portfolio-text{
+    display: flex; 
+    margin: 3rem 0;
+    justify-content: center;
+    text-align: center;
 }
-.website h5{
-    margin-left: 40%;
-    margin-right: 5%;
+.portfolio-text h5{
     color: #ffa500;
     border-bottom: 1px solid #ffa500;
-    width: 10%;
+    width: 20%;
 }
-.website p{
+.portfolio-text h5:last-of-type{
     color: #c6c6c6;
-    border-bottom:1px solid #c6c6c6 ;
-    margin-right: 5%;
-    width: 10%;
+    border-bottom:1px solid #c6c6c6;
+    width: 20%;
 }
-.website a{
+.portfolio-text a{
     color: #ffa500;
-    margin-left: 10%;
+    margin-left: 7rem;
 }
 .box{
-    display:flex;
-    margin-bottom: 2%;
-    padding-left:18% ;
+    margin: 3rem 2rem;
+    display: grid;
+    grid-template-columns:auto auto auto;
 }
 .box p {
     height:350px;
-    width: 265px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 2rem;
     line-height:350px;
     border: 1px solid none;
     border-radius: 5px;
-    margin-left: 2%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .box p a{
     color: #000000;
     font-size: 18px;
-    margin-left: 100px;
 }
-.boxx{
-    display:flex;
-    padding-left: 18%;
+.faq{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
 }
-.boxx p {
-    height:350px;
-    width: 265px;
-    line-height: 350px;
-    border: 1px solid none;
-    border-radius: 5px;
-    margin-left: 2%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-.boxx p a{
-    color: #000000;
-    font-size: 18px;
-    margin-left: 100px;
-}
-
-.question h5 {
+.faq h5 {
     color: #ffa500;
-    text-align: center;
-    margin-bottom: 2%;
-    margin-top: 5%;
+    margin-bottom: 2rem;
 }
-.question h3{
+.faq h3{
     color: #000000;
-    text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
     font-size: 30px;
 }
-.question h4{
+.faq h4{
     color: #979797;
-    width: 550px;
-    margin-left: 30%;
-    margin-bottom: 3%;
+    width: 55%;
 }
-.asked{
+.question{
     display: flex;
-    margin-left: 10%; 
+    justify-content: center;
 }
-.asked h4{
+.question h4{
    color: #000000;
    margin-bottom: 4%; 
 }
-.asked p{
+.question p{
     width: 420px;
     color: #646464;
     margin-bottom: 4%;
 }
-.frequently{
-    margin-left: 20%;
-}
+
 .news{
-    padding-left: 10%;
-    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5rem;
     background: #fafbfd;
 }
 .news h5{
-    text-align: center;
     color: #ffa500;
 }
 .news h3{
-    text-align: center;
     margin-top: 3%;
     font-size: 30px;
 }
 .news p{
-    text-align: center;
     width: 450px;
     color: #646464;
-    margin-left: 30%;
     margin-top: 3%;
+}
+.news-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 input{
     border: 1px solid #cecece;
     height: 35px;
-    width: 550px;
-    padding-left: 2%;
-    margin-left: 30%;
+    width: 480px;
+    padding-left: 1rem;
     margin-bottom:3%;
     margin-top: 3%;
     outline: none;
     border-radius: 5px;
 }
 .news button{
-    margin-left: -11.3%;
+    margin-left: -1rem;
     height: 35px;
     width: 150px;
     background: #ffa500;
@@ -591,65 +533,46 @@ input{
 }
 footer{
     background:url(images/Banner.png);
+    padding: 4rem;
 }
-.foot{
+.footer{
     display: flex;
     justify-content: space-between;
-    margin-right: 25%;
 }
-.txt{
-    width: 400px;
+.footer-text{
+    width: 40%;
 }
-.link{
-    margin-left: 10%;
-    margin-top: 5%;
+.footer-text p{
+    text-align:start;
 }
 span{
     color: #ffa500;
-    margin-bottom: 10%;
-}
-.link p{
-    margin-bottom: 15%;
-    color: #ffffff;
-    margin-top: 10%;
 }
 i{
-    margin-left: 5%;
-    width: 12%;
     border: 1px solid ;
     font-size: 24px;
-    border-radius: 50%;
-    height: 30px;
-    text-align: center;
-    padding-top: 4%;
+    padding:20px;
+    border-radius: 50px;
 }
 #fa{
-    margin-left: 5%;
-    width: 12%;
     background:#ffa500 ;
     font-size: 24px;
-    border-radius: 50%;
-    height: 30px;
-    text-align: center;
-    padding-top: 4%;
     border: none;
 }
-table{
+.footer-list{
     color: #ffffff;
     margin-top: 4%;
+    display: flex;
+    gap: 2rem;
 }
-
-th{
-    font-size: 20px;
+.footer-list ul{
+    list-style: none;
+}
+.footer-list-header{
     color: #ffa500;
-    padding-left: 80px;
-    padding-right: 10px ;
 }
-th a{
+.footer-list-header a{
     text-decoration: underline;
-}
-td{
-    padding-left: 80px;
 }
 footer p{
     margin-top: 5%;
