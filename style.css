@@ -580,3 +580,78 @@ footer p{
     text-align: center;
     color: #ffffff;
 }
+
+@media only screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav ul{
+        display: none;
+    }
+    section{
+        flex-direction: column-reverse;
+    }
+    .section-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .subcribe{
+        flex-direction: column;
+    }
+    .first-subcription{
+        width: 30%;
+    }
+    .second-subcription{
+        width: 30%;
+    }
+    .third-subcription{
+        width: 30%;
+    }
+    .sale-announcement{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .sales-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-quality{
+        flex-direction: column;
+    }
+    .box{
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    .box p{
+        align-items: center;
+        width: 70%;
+    }
+    .question{
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-input{
+        flex-direction: column;
+    }
+    input{
+        width: 380px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-list{
+        flex-direction: column;
+    }
+}
