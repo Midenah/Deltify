@@ -29,6 +29,11 @@ nav ul{
     display: flex;
     gap: 20px;
 }
+#menu{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
 nav p{
     color: #ffa500;
     text-decoration: underline #ffa500;
@@ -586,7 +591,19 @@ footer p{
         overflow-x: hidden;
     }
     nav ul{
-        display: none;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        left: -1001%; 
+        background: #191919;
+        padding: 2rem 3rem;
+        transition: all .30s ease;
+    }
+    #menu{
+        display: flex;
+    }
+    .open{
+        left:5%;
     }
     section{
         flex-direction: column-reverse;
@@ -632,6 +649,92 @@ footer p{
     }
     .box{
         grid-template-columns: auto;
+        align-items: center;
+    }
+    .box p{
+        align-items: center;
+        width: 70%;
+    }
+    .question{
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-input{
+        flex-direction: column;
+    }
+    input{
+        width: 380px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-list{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:991px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav ul{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        left: -1001%; 
+        background: #191919;
+        padding: 2rem 3rem;
+        transition: all .30s ease;
+    }
+    #menu{
+        display: flex;
+    }
+    .open{ 
+        left: 5%;
+    }
+    section{
+        flex-direction: column-reverse;
+    }
+    .section-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .subcribe{
+        flex-direction: column;
+    }
+    .first-subcription{
+        width: 30%;
+    }
+    .second-subcription{
+        width: 30%;
+    }
+    .third-subcription{
+        width: 30%;
+    }
+    .sale-announcement{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .sales-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-quality{
+        flex-direction: column;
+    }
+    .box{
+        grid-template-columns: auto auto;
         align-items: center;
     }
     .box p{
