@@ -594,16 +594,16 @@ footer p{
         display: flex;
         position: absolute;
         flex-direction: column;
-        left: -1001%; 
+        right: -100%; 
         background: #191919;
-        padding: 2rem 3rem;
+        padding: 2rem 1rem;
         transition: all .30s ease;
     }
     #menu{
         display: flex;
     }
     .open{
-        left:5%;
+        right:2%;
     }
     section{
         flex-direction: column-reverse;
@@ -677,19 +677,18 @@ footer p{
         overflow-x: hidden;
     }
     nav ul{
-        display: flex;
         position: absolute;
         flex-direction: column;
-        left: -1001%; 
-        background: #191919;
-        padding: 2rem 3rem;
         transition: all .30s ease;
+        right: -100%;
+        background: #191919;
+        padding: 2rem;
     }
     #menu{
         display: flex;
     }
     .open{ 
-        left: 5%;
+        right: 20%;
     }
     section{
         flex-direction: column-reverse;
