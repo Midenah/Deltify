@@ -587,23 +587,19 @@ footer p{
 }
 
 @media only screen and (max-width:768px) {
-    body{
-        overflow-x: hidden;
-    }
+   
     nav ul{
-        display: flex;
-        position: absolute;
+        display: none;
         flex-direction: column;
-        right: -100%; 
-        background: #191919;
-        padding: 2rem 1rem;
+        background: transparent;
+        padding: 2rem 0.4rem;
         transition: all .30s ease;
     }
     #menu{
         display: flex;
     }
-    .open{
-        right:2%;
+    .show{
+        display: block;
     }
     section{
         flex-direction: column-reverse;
@@ -616,6 +612,9 @@ footer p{
     }
     .main{
         flex-direction: column;
+    }
+    .main img{
+        width: 80%;
     }
     .main-text{
         display: flex;
@@ -659,11 +658,22 @@ footer p{
         flex-direction: column;
         align-items: center;
     }
+    .question p{
+        width: 200px;
+    }
+    .quest{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .news p{
+        width: 70%;
+    }
     .news-input{
         flex-direction: column;
     }
     input{
-        width: 380px;
+        width: 90%;
     }
     .footer{
         flex-direction: column;
@@ -673,22 +683,19 @@ footer p{
     }
 }
 @media only screen and (min-width:769px) and (max-width:991px) {
-    body{
-        overflow-x: hidden;
-    }
+   
     nav ul{
-        position: absolute;
+        display: none;
         flex-direction: column;
         transition: all .30s ease;
-        right: -100%;
-        background: #191919;
+        background: transparent;
         padding: 2rem;
     }
     #menu{
         display: flex;
     }
-    .open{ 
-        right: 20%;
+    .show{ 
+        display: flex;
     }
     section{
         flex-direction: column-reverse;
